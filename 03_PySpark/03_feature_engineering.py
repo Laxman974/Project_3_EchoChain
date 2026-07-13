@@ -11,6 +11,11 @@ print(df.columns)
 
 # Future feature engineering steps
 # 1. Extract RAM size
+# Create a new feature for RAM size
+df["RAM_Size"] = df["Ram"].str.extract(r'(\d+)').astype(float)
+
+print(df[["Ram", "RAM_Size"]].head())
+
 # 2. Convert Price column to numeric
 # 3. Categorize laptops by price range
 
