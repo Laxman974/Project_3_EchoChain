@@ -14,6 +14,8 @@ df = df.drop_duplicates()
 
 # Fill missing Rating values with mean
 df["Rating"] = df["Rating"].fillna(df["Rating"].mean())
+df["Warranty"] = df["Warranty"].fillna("No Warranty")
+df["OS"] = df["OS"].fillna("Unknown OS")
 
 # Remove unnecessary column
 df = df.drop(columns=["Unnamed: 0"])
