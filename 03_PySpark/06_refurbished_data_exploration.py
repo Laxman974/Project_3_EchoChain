@@ -1,9 +1,11 @@
 from pyspark.sql import SparkSession
 
 # Create Spark Session
-spark = SparkSession.builder \
-    .appName("Refurbished Laptop Data Exploration") \
+spark = (
+    SparkSession.builder
+    .appName("Refurbished Laptop Data Exploration")
     .getOrCreate()
+)
 
 # Load Dataset
 df = spark.read.csv(
