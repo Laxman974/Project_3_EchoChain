@@ -1,7 +1,10 @@
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv("01_Dataset/cleaned_products.csv")
+df = pd.read_csv(
+    "01_Dataset/cleaned_products.csv",
+    encoding="utf-8-sig"
+)
 
 print("===== Before Transformation =====")
 print(df.head())
@@ -12,9 +15,13 @@ df["Price"] = (
     .astype(str)
     .str.replace("₹", "", regex=False)
     .str.replace(",", "", regex=False)
+    .str.strip()
 )
 
-df["Price"] = pd.to_numeric(df["Price"])
+df["Price"] = pd.to_numeric(
+    df["Price"],
+    errors="coerce"
+)
 
 # Extract RAM size
 df["RAM_Size"] = (
@@ -60,7 +67,7 @@ print(
 # Save transformed dataset
 df.to_csv(
     "01_Dataset/transformed_products.csv",
-    index=False
+    index=False,
+    encoding="utf-8-sig"
 )
-
 print("\nTransformation Completed Successfully!")
