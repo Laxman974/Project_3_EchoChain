@@ -45,7 +45,7 @@ The objective of this project is to analyze laptop datasets using Python, PySpar
 - 04_data_transformation.py
 - 05_data_analysis.py
 - 06_refurbished_data_exploration.py
-- 07_refurbished_data_cleaning.py
+
 
 ## Branch Information
 - main : Final project code
@@ -73,6 +73,8 @@ python 03_PySpark/02_data_cleaning.py
 python 03_PySpark/03_feature_engineering.py
 python 03_PySpark/04_data_transformation.py
 python 03_PySpark/05_data_analysis.py
+python 03_PySpark/06_refurbished_data_exploration.py
+python 03_PySpark/07_refurbished_data_cleaning.py
 ```
 
 ## Week 1 Work
