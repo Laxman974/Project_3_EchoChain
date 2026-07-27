@@ -1,0 +1,22 @@
+EchoChain Project Final Report
+
+Project Name: EchoChain
+Dataset Used: Laptop Price Dataset
+
+Completed Tasks:
+1. Project setup
+2. Data exploration
+3. Data cleaning
+4. Feature engineering
+5. Documentation
+6. GitHub integration
+
+Technologies Used:
+- Python
+- Pandas
+- PySpark
+- GitHub
+- Power BI
+
+Current Status:
+Week 1 tasks completed successfully.
