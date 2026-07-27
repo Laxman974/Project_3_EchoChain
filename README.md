@@ -90,3 +90,16 @@ python 03_PySpark/05_data_analysis.py
 - Databricks implementation
 - Added screenshots
 - Updated documentation
+
+## Week 3 Work
+
+- Performed data transformation using Python and Pandas.
+- Created `transformed_products.csv`.
+- Performed data analysis on the transformed dataset.
+- Explored the refurbished laptop dataset using PySpark.
+- Cleaned the refurbished laptop dataset using PySpark.
+- Uploaded cleaned and transformed datasets to Databricks.
+- Created and queried Databricks tables.
+- Verified data using PySpark operations and aggregations.
+- Updated project documentation and screenshots.
+- Synced project changes with GitHub.
