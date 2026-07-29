@@ -67,7 +67,23 @@ print("Minimum Laptop Price")
 
 df.select(min("Price_euro").alias("Minimum_Price")) \
     .show()
+# ---------------------------------------------
+# Top 10 Most Expensive Laptops
+# ---------------------------------------------
+print("Top 10 Most Expensive Laptops")
 
+df.orderBy(df["Price_euro"].desc()) \
+    .select("ID", "Model_year", "Storage_GB", "Memory_GB", "Grade", "Price_euro") \
+    .show(10)
+
+# ---------------------------------------------
+# Top 10 Cheapest Laptops
+# ---------------------------------------------
+print("Top 10 Cheapest Laptops")
+
+df.orderBy(df["Price_euro"].asc()) \
+    .select("ID", "Model_year", "Storage_GB", "Memory_GB", "Grade", "Price_euro") \
+    .show(10)
 print("Aggregation Completed Successfully")
 
 spark.stop()
