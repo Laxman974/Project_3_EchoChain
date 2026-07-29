@@ -35,3 +35,50 @@ Analyze laptop datasets using Python, PySpark, and Power BI.
 - Power BI
 - GitHub
 >>>>>>> 02dad3c0927b7c2b62b37095694ef136a4d7fe16
+
+# Sahla Sharin - Work Completed
+
+## Databricks
+- Connected GitHub repository with Databricks.
+- Created Databricks project folder.
+- Completed the initial Databricks workspace setup.
+
+## PySpark Tasks Completed
+
+### 06_refurbished_data_exploration.py
+- Loaded the refurbished laptops dataset.
+- Explored dataset structure.
+- Displayed schema and sample records.
+- Performed basic data exploration.
+
+### 07_refurbished_data_cleaning.py
+- Removed duplicate records.
+- Checked and handled missing values.
+- Cleaned dataset for further processing.
+
+### 08_refurbished_feature_engineering.py
+Created new features:
+- Laptop_Age
+- Price_Category
+- Storage_Category
+
+### 09_refurbished_data_transformation.py
+Completed:
+- Screen size transformation.
+- Data type conversion.
+- Saved transformed dataset.
+
+### 10_refurbished_data_aggregation.py
+Performed:
+- Average Price Analysis
+- Grade-wise Analysis
+- Storage Type Analysis
+- Memory Type Analysis
+- Maximum Price Analysis
+- Minimum Price Analysis
+- Top 10 Expensive Laptops
+- Top 10 Cheapest Laptops
+
+## Git Status
+- All completed tasks committed successfully.
+- All changes pushed to the `sahla-sharin` branch.
