@@ -15,8 +15,7 @@ df = spark.read.csv(
 
 print("Dataset Loaded Successfully")
 df.show(5)
-print("Dataset Loaded Successfully")
-df.show(5)
+
 
 df = df.withColumn(
     "Screen_size",
@@ -50,3 +49,4 @@ df.write.mode("overwrite").option("header", True).csv(
 )
 
 print("Transformed Dataset Saved Successfully")
+spark.stop()
