@@ -17,39 +17,45 @@ The objective of this project is to analyze laptop datasets using Python, PySpar
 
 ## Project Structure
 
-01_Dataset
+### 01_Dataset
 - Contains original and processed datasets.
 
-02_Databricks
+### 02_Databricks
 - Contains Databricks notebooks and documentation.
 
-03_PySpark
+### 03_PySpark
 - Contains Python and PySpark scripts.
 
-06_Documentation
+### 06_Documentation
 - Contains project documents.
 
-07_Progress
+### 07_Progress
 - Contains weekly progress reports.
 
-09_Images
+### 09_Images
 - Contains screenshots.
 
-10_Reports
+### 10_Reports
 - Contains reports.
 
 ## Implemented Files
+
 - 01_data_exploration.py
 - 02_data_cleaning.py
 - 03_feature_engineering.py
 - 04_data_transformation.py
 - 05_data_analysis.py
 - 06_refurbished_data_exploration.py
-
+- 07_refurbished_data_cleaning.py
+- 08_refurbished_feature_engineering.py
+- 09_refurbished_data_transformation.py
+- 10_refurbished_data_aggregation.py
 
 ## Branch Information
+
 - main : Final project code
 - laxman : Development branch
+- sahla-sharin : Refurbished dataset development
 
 ## Execution Steps
 
@@ -75,9 +81,13 @@ python 03_PySpark/04_data_transformation.py
 python 03_PySpark/05_data_analysis.py
 python 03_PySpark/06_refurbished_data_exploration.py
 python 03_PySpark/07_refurbished_data_cleaning.py
+python 03_PySpark/08_refurbished_feature_engineering.py
+python 03_PySpark/09_refurbished_data_transformation.py
+python 03_PySpark/10_refurbished_data_aggregation.py
 ```
 
 ## Week 1 Work
+
 - Repository setup
 - Dataset collection
 - Data exploration
@@ -86,6 +96,7 @@ python 03_PySpark/07_refurbished_data_cleaning.py
 - GitHub integration
 
 ## Week 2 Work
+
 - Data transformation
 - Data analysis
 - Refurbished dataset processing
@@ -96,7 +107,7 @@ python 03_PySpark/07_refurbished_data_cleaning.py
 ## Week 3 Work
 
 - Performed data transformation using Python and Pandas.
-- Created `transformed_products.csv`.
+- Created transformed_products.csv.
 - Performed data analysis on the transformed dataset.
 - Explored the refurbished laptop dataset using PySpark.
 - Cleaned the refurbished laptop dataset using PySpark.
@@ -105,3 +116,60 @@ python 03_PySpark/07_refurbished_data_cleaning.py
 - Verified data using PySpark operations and aggregations.
 - Updated project documentation and screenshots.
 - Synced project changes with GitHub.
+
+# Sahla Sharin - Work Completed
+
+## Databricks
+
+- Connected GitHub repository with Databricks.
+- Created Databricks project folder.
+- Completed the initial Databricks workspace setup.
+
+## PySpark Tasks Completed
+
+### 06_refurbished_data_exploration.py
+
+- Loaded the refurbished laptops dataset.
+- Explored dataset structure.
+- Displayed schema and sample records.
+- Performed basic data exploration.
+
+### 07_refurbished_data_cleaning.py
+
+- Removed duplicate records.
+- Checked and handled missing values.
+- Cleaned dataset for further processing.
+
+### 08_refurbished_feature_engineering.py
+
+Created new features:
+
+- Laptop_Age
+- Price_Category
+- Storage_Category
+
+### 09_refurbished_data_transformation.py
+
+Completed:
+
+- Screen size transformation.
+- Data type conversion.
+- Saved transformed dataset.
+
+### 10_refurbished_data_aggregation.py
+
+Performed:
+
+- Average Price Analysis
+- Grade-wise Analysis
+- Storage Type Analysis
+- Memory Type Analysis
+- Maximum Price Analysis
+- Minimum Price Analysis
+- Top 10 Expensive Laptops
+- Top 10 Cheapest Laptops
+
+## Git Status
+
+- All completed tasks committed successfully.
+- All changes pushed to the `sahla-sharin` branch.
