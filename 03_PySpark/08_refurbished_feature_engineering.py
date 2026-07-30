@@ -13,8 +13,7 @@ df = spark.read.csv(
     inferSchema=True
 )
 
-print("Dataset Loaded Successfully")
-df.show(5)
+
 print("Dataset Loaded Successfully")
 df.show(5)
 # Create Laptop_Age Column
