@@ -82,3 +82,37 @@ Performed:
 ## Git Status
 - All completed tasks committed successfully.
 - All changes pushed to the `sahla-sharin` branch.
+
+## 📊 Power BI Dashboard
+
+### Refurbished Laptop Analysis
+
+Developed an interactive Power BI dashboard using the cleaned refurbished laptop dataset.
+
+### Dashboard Includes
+
+- Total Refurbished Laptops
+- Average Refurbished Price
+- Grade Distribution
+- Storage Type Distribution
+- Memory Type Distribution
+- Model Year Distribution
+- Average Price by Grade
+- Top 10 Cheapest Laptops
+- Top 10 Expensive Laptops
+
+### Tools Used
+
+- Power BI Desktop
+- Microsoft Excel
+- PySpark
+- Databricks
+
+### Dashboard Features
+
+- Interactive visualizations
+- Professional dashboard layout
+- Customized background and formatting
+- KPI cards for quick insights
+- Charts for grade, storage, memory, and model year analysis
+- Tables showing the top 10 cheapest and most expensive refurbished laptops
