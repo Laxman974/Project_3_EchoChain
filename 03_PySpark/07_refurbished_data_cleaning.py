@@ -17,24 +17,50 @@ df = spark.read.csv(
 
 print("Original Rows:", df.count())
 
-# Remove duplicate rows
+# ----------------------------------------
+# Remove Duplicate Rows
+# ----------------------------------------
 df = df.dropDuplicates()
 
-# Remove rows with null values
+# ----------------------------------------
+# Remove Rows with Null Values
+# ----------------------------------------
 df = df.dropna()
 
 print("Rows After Cleaning:", df.count())
 
-# Check null values
+# ----------------------------------------
+# Check Null Values
+# ----------------------------------------
 print("\nNull Values:")
 for column in df.columns:
     print(column, ":", df.filter(col(column).isNull()).count())
 
-# Show cleaned data
+# ----------------------------------------
+# Convert Euro to Indian Rupees
+# ----------------------------------------
+
+EXCHANGE_RATE = 100   # 1 Euro = ₹100
+
+df = df.withColumn(
+    "Price_INR",
+    col("Price_euro") * EXCHANGE_RATE
+)
+
+print("\nPrice Converted to INR")
+df.select("Price_euro", "Price_INR").show(10)
+
+# ----------------------------------------
+# Show Cleaned Data
+# ----------------------------------------
+
 print("\nCleaned Data:")
 df.show(5)
 
-# Save cleaned dataset
+# ----------------------------------------
+# Save Cleaned Dataset
+# ----------------------------------------
+
 df.toPandas().to_csv(
     "01_Dataset/cleaned_refurbished_laptops.csv",
     index=False
@@ -42,8 +68,4 @@ df.toPandas().to_csv(
 
 print("\nCleaned dataset saved successfully!")
 
-<<<<<<< HEAD
 spark.stop()
-=======
-spark.stop()
->>>>>>> laxman
