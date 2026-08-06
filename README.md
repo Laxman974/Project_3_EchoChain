@@ -2,9 +2,9 @@
 
 ## Objective
 
-The objective of this project is to analyze laptop datasets using Python, PySpark, Databricks, and Power BI. The project includes data exploration, data cleaning, feature engineering, data transformation, data analysis, and dashboard development.
+Analyze New Laptop and Refurbished Laptop datasets using Python, PySpark, Databricks, and Power BI. The project covers data exploration, cleaning, feature engineering, transformation, analysis, and interactive dashboard development.
 
-## Dataset
+## Datasets
 
 - products.csv
 - refurbished_laptops.csv
@@ -21,10 +21,10 @@ The objective of this project is to analyze laptop datasets using Python, PySpar
 ## Project Structure
 
 ### 01_Dataset
-Contains original and processed datasets.
+Contains original, cleaned, and transformed datasets.
 
 ### 02_Databricks
-Contains Databricks notebooks and documentation.
+Contains Databricks notebooks and setup files.
 
 ### 03_PySpark
 Contains Python and PySpark scripts.
@@ -33,10 +33,13 @@ Contains Python and PySpark scripts.
 Contains Power BI dashboard files.
 
 ### 06_Documentation
-Contains project documents.
+Contains documentation files.
 
 ### 07_Progress
 Contains weekly progress reports.
+
+### 08_GitHub
+Contains GitHub-related project files.
 
 ### 09_Images
 Contains screenshots.
@@ -92,7 +95,7 @@ python 03_PySpark/09_refurbished_data_transformation.py
 python 03_PySpark/10_refurbished_data_aggregation.py
 ```
 
-## Week 1 Work
+## Week 1
 
 - Repository setup
 - Dataset collection
@@ -101,35 +104,58 @@ python 03_PySpark/10_refurbished_data_aggregation.py
 - Feature engineering
 - GitHub integration
 
-## Week 2 Work
+## Week 2
 
 - Data transformation
 - Data analysis
 - Refurbished dataset processing
 - Databricks implementation
-- Added screenshots
+- Documentation updates
+- Screenshots
+
+## Week 3
+
+- Uploaded datasets to Databricks
+- Created Databricks tables
+- PySpark analysis
 - Updated documentation
+- Synced GitHub
 
-## Week 3 Work
+## Week 4
 
-- Performed data transformation using Python and Pandas.
-- Created transformed_products.csv.
-- Performed data analysis on the transformed dataset.
-- Explored the refurbished laptop dataset using PySpark.
-- Cleaned the refurbished laptop dataset using PySpark.
-- Uploaded cleaned and transformed datasets to Databricks.
-- Created and queried Databricks tables.
-- Verified data using PySpark operations and aggregations.
-- Updated project documentation and screenshots.
-- Synced project changes with GitHub.
+- Developed New Laptop Power BI Dashboard.
+- Enhanced Refurbished Laptop Dashboard.
+- Added Executive Dashboard page.
+- Created DAX measures.
+- Added KPI cards, slicers, and business insight visuals.
+- Improved dashboard layout and formatting.
+- Updated README, reports, and documentation.
 
-# Sahla Sharin - Work Completed
+## Team Contributions
+
+### Prajapati Laxman
+
+- Data exploration, cleaning, feature engineering, transformation, and analysis.
+- Databricks setup, table creation, SQL and PySpark analysis.
+- Developed the New Laptop Dashboard.
+- Designed and developed the Executive Dashboard.
+- Enhanced the Refurbished Laptop Dashboard.
+- Updated datasets, DAX measures, visuals, formatting, slicers, and GitHub documentation.
+
+### Sahla Sharin
+
+- Refurbished dataset exploration.
+- Refurbished dataset cleaning.
+- Feature engineering.
+- Data transformation.
+- Data aggregation.
+- Created the initial Refurbished Laptop Dashboard.
 
 ## Databricks Setup
 
 - Connected GitHub repository with Databricks.
 - Created the Databricks project folder.
-- Completed the initial Databricks workspace setup.
+- Completed the Databricks workspace setup.
 
 ## PySpark Tasks Completed
 
@@ -144,11 +170,11 @@ python 03_PySpark/10_refurbished_data_aggregation.py
 
 - Removed duplicate records.
 - Checked and handled missing values.
-- Cleaned the dataset for further processing.
+- Cleaned the dataset.
 
 ### 08_refurbished_feature_engineering.py
 
-Created the following new features:
+Created new features:
 
 - Laptop_Age
 - Price_Category
@@ -156,13 +182,13 @@ Created the following new features:
 
 ### 09_refurbished_data_transformation.py
 
-- Performed screen size transformation.
-- Converted the required data types.
-- Saved the transformed dataset.
+- Screen size transformation.
+- Data type conversion.
+- Saved transformed dataset.
 
 ### 10_refurbished_data_aggregation.py
 
-Performed the following analyses:
+Performed:
 
 - Average Price Analysis
 - Grade-wise Analysis
@@ -176,54 +202,44 @@ Performed the following analyses:
 ## Git Status
 
 - Successfully committed all completed tasks.
-- Pushed all changes to the sahla-sharin branch.
+- Updated Power BI dashboards.
+- Updated documentation and reports.
+- Merged project changes into the main branch.
 
-# Power BI Dashboard
+## Power BI Dashboard
 
-## Refurbished Laptop Analysis
+### New Laptop Analysis
 
-Developed an interactive Power BI dashboard using the updated cleaned_refurbished_laptops.csv dataset.
+- KPI Cards
+- Brand Analysis
+- Price Analysis
+- RAM Distribution
+- Storage Analysis
+- Interactive Slicers
 
-### Dashboard Includes
+### Refurbished Laptop Analysis
 
-- Total Refurbished Laptops
-- Average Refurbished Price (INR)
+- KPI Cards
 - Grade Distribution
 - Storage Type Distribution
 - Memory Type Distribution
 - Model Year Distribution
-- Average Price by Grade (INR)
-- Top 10 Cheapest Laptops (INR)
-- Top 10 Expensive Laptops (INR)
+- Average Price by Grade
+- Top 10 Cheapest Laptops
+- Top 10 Expensive Laptops
 - Executive Dashboard
-- New vs Refurbished Price Comparison
 - Interactive Filters and Slicers
-
-### Tools Used
-
-- Power BI Desktop
-- Microsoft Excel
-- PySpark
-- Databricks
 
 ### Dashboard Features
 
 - Interactive visualizations
 - Professional dashboard layout
-- Customized background and formatting
 - KPI Cards
 - Executive Dashboard
 - Interactive slicers
-- Grade, Storage Type, Memory Type, and Model Year analysis
-- Top 10 Cheapest and Top 10 Most Expensive Refurbished Laptops
-- Comparative analysis using charts and tables
+- Business insight visualizations
+- Comparative analysis
 
-### Latest Update
+## Project Outcome
 
-- Updated the dashboard using the latest cleaned_refurbished_laptops.csv dataset.
-- Replaced all Euro-based pricing with Indian Rupee (Price_INR).
-- Added DAX measures for dashboard analysis.
-- Added Executive Dashboard page.
-- Improved dashboard layout and formatting.
-- Updated charts and visualizations.
-- Renamed the Power BI folder from 04_PowerBI to 05_PowerBI.
+The EchoChain project successfully analyzes New Laptop and Refurbished Laptop datasets using Python, PySpark, Databricks, and Power BI, delivering interactive dashboards and meaningful business insights.

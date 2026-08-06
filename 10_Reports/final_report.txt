@@ -1,22 +1,70 @@
-EchoChain Project Final Report
+# EchoChain Project Final Report
 
-Project Name: EchoChain
-Dataset Used: Laptop Price Dataset
+## Project Name
+EchoChain: Circular Economy & Secondary Market Lifecycle Analytics
 
-Completed Tasks:
-1. Project setup
-2. Data exploration
-3. Data cleaning
-4. Feature engineering
-5. Documentation
-6. GitHub integration
+## Datasets Used
 
-Technologies Used:
+- New Laptop Dataset
+- Refurbished Laptop Dataset
+
+## Project Objective
+
+Analyze new and refurbished laptop datasets using Python, PySpark, Databricks, and Power BI to generate meaningful business insights through data processing, analysis, and interactive dashboards.
+
+## Completed Tasks
+
+1. Repository setup and project structure
+2. Dataset collection
+3. Data exploration using Python and Pandas
+4. Data cleaning
+5. Feature engineering
+6. Data transformation
+7. Data analysis using Python and PySpark
+8. Refurbished laptop dataset processing
+9. Databricks setup and implementation
+10. Created and queried Databricks tables
+11. Power BI dashboard development
+12. Executive Dashboard creation
+13. DAX measure creation
+14. Dashboard formatting and visualization improvements
+15. Documentation updates
+16. GitHub branch management and project synchronization
+
+## Technologies Used
+
 - Python
 - Pandas
 - PySpark
-- GitHub
+- Databricks
 - Power BI
+- GitHub
 
-Current Status:
-Week 1 tasks completed successfully.
+## Deliverables
+
+- Cleaned datasets
+- Transformed datasets
+- PySpark scripts
+- Databricks notebooks
+- Power BI Dashboard
+- Executive Dashboard
+- Project Documentation
+- GitHub Repository
+
+## Current Status
+
+- Project Setup Completed
+- Data Exploration Completed
+- Data Cleaning Completed
+- Feature Engineering Completed
+- Data Transformation Completed
+- Data Analysis Completed
+- Databricks Implementation Completed
+- Power BI Dashboard Completed
+- Executive Dashboard Completed
+- Documentation Completed
+- GitHub Repository Updated
+
+## Conclusion
+
+The EchoChain project successfully analyzes new and refurbished laptop datasets using Python, PySpark, Databricks, and Power BI. The project provides meaningful business insights through interactive dashboards and data-driven visualizations, supporting better understanding of pricing, storage, memory, brand trends, and refurbished laptop market analysis.
